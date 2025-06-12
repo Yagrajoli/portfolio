@@ -12,7 +12,7 @@ export const DATA = {
 
   summary:
     "With a passion for clean code and thoughtful design, I help businesses and individuals bring their ideas to life through fast, intuitive, and engaging websites. I specialize in HTML, CSS, JavaScript, React.js, and Next.js—always aiming to build scalable, maintainable, and user-focused interfaces. Whether it's a landing page, a complex web app, or a full redesign, I'm here to create digital experiences that feel as good as they look.",
-  avatarUrl: "/me.JPG",
+  avatarUrl: "/my-photo.jpg",
   skills: [
     "React",
     "Next.js",
@@ -34,31 +34,26 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Yagrajoli",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/yagraj-oli-72220b235/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/Yagraj05",
         icon: Icons.x,
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
+      
       email: {
         name: "Send Email",
         url: "#",
