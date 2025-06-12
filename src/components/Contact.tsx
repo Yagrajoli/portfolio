@@ -100,7 +100,7 @@ export default function Contact() {
             Get in Touch
           </h2>
           <p className="text-gray-600 mb-8 md:text-lg">
-            Have a question or want to collaborate? Fill out the form below, and I'll get back to you soon!
+            Have a question or want to collaborate? Fill out the form below, and I&apos;ll get back to you soon!
           </p>
           
           <form onSubmit={handleSubmit} className="space-y-6">
