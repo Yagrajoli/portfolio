@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Yagraj oli",
   initials: "YO",
-  url: "https://dillion.io",
+  url: "https://www.yagrajoli.com.np",
   location: "Kathmandu, Nepal",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Frontend Web Developer based in Kathmandu, Nepal. I specialize in building modern, responsive, and accessible web interfaces with a focus on performance and user experience.",
 
@@ -79,7 +79,7 @@ export const DATA = {
   },
   {
     company: "Global Clinical Research Pvt. Ltd.",
-    href: "https://gcrcro.com", // Use actual URL if available
+    href: "https://www.gcrcro.com", // Use actual URL if available
     badges: [],
     location: "Kathmandu, Nepal",
     title: "Web Developer",
@@ -118,7 +118,6 @@ export const DATA = {
     {
   title: "Kinimini",
   href: "https://kinimini.com.np/",
-  dates: "March 2024 - May 2024",  // Replace with your actual dates
   active: true,
   description:
     "Collaborated with teammates to build an online e-commerce store using Next.js, TailwindCSS, React Query, and Zustand for state management. Additionally developed the Super Admin Panel and Vendor Admin Panel for efficient management and operations.",
@@ -141,10 +140,37 @@ export const DATA = {
   landingPage: "https://kinimini.com.np/"
 },
 
+
+
+{
+  title: "Global Clinical Research",
+  href: "https://www.gcrcro.com/",
+  active: true,
+  description:
+    "Developed and optimized the Global Clinical Research website using Next.js, TailwindCSS, and Shadcn UI. Focused on building clean, responsive UI components and enhancing overall user experience and performance.",
+  
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "TailwindCSS",
+    "Shadcn UI"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://www.gcrcro.com/",
+      icon: <Icons.globe className="size-3" />,
+    }
+  ],
+  image: "/gcr.png",
+  landingPage: "https://www.gcrcro.com/"
+},
+
+
     {
   title: "Kailash Cloud",
   href: "https://kailashcloud.com/",
-  dates: "June 2024 - August 2024",
+  // dates: "June 2024 - August 2024",
   active: true,
   description:
     "Solely developed an online presence for a hosting provider company in Nepal using Remix.js, TailwindCSS, and TypeScript. Built a responsive and modern website to showcase hosting services and streamline user interactions.",
@@ -167,7 +193,7 @@ export const DATA = {
     {
   title: "Siddhartha Hardwares",
   href: "https://www.siddharthahardwares.com/",
-  dates: "September 2024 - November 2024",
+  // dates: "September 2024 - November 2024",
   active: true,
   description:
     "Worked collaboratively with teammates to develop an e-commerce platform for a hardware store using Next.js, TailwindCSS, and Context API for state management. Designed a user-friendly interface to showcase products and streamline the shopping experience.",
@@ -211,7 +237,7 @@ export const DATA = {
 {
   title: "Music School",
   href: "https://music-school-nine-vert.vercel.app/",
-  dates: "March 2025 - May 2025",
+  // dates: "March 2025 - May 2025",
   active: true,
   description:
     "Independently built a music school website using Next.js, Aceternity UI library, and TypeScript. Created a dynamic and engaging interface to showcase music courses and enhance user experience.",
@@ -233,7 +259,7 @@ export const DATA = {
 {
   title: "Tech-News-App",
   href: "https://tech-news-website-nu.vercel.app/",
-  dates: "June 2025 - August 2025",
+  // dates: "June 2025 - August 2025",
   active: true,
   description:
     "Independently developed a news application using React.js, TailwindCSS, and the useReducer hook for pagination. Created a functional interface to display tech news with search and navigation features.",
@@ -252,29 +278,7 @@ export const DATA = {
   image: "/tech-news.png",
   landingPage: "https://tech-news-website-nu.vercel.app/"
 },
-{
-  title: "Code Review AI",
-  href: "https://code-review-ai-frontend.vercel.app/",
-  dates: "September 2025 - November 2025",
-  active: true,
-  description:
-    "Independently developed a code review application using React, TailwindCSS, and a code highlighter library, integrated with the Google Gemini API for automated code analysis and feedback.",
-  technologies: [
-    "React",
-    "TailwindCSS",
-    "Google Gemini API",
-    "Code Highlighter"
-  ],
-  links: [
-    {
-      type: "Website",
-      href: "https://code-review-ai-frontend.vercel.app/",
-      icon: <Icons.globe className='size-3' />
-    }
-  ],
-  image: "/code-review.png",
-  landingPage: "https://code-review-ai-frontend.vercel.app/"
-}
+
   ],
   // hackathons: [
   //   {
