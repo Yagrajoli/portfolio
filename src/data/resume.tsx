@@ -15,6 +15,7 @@ export const DATA = {
   avatarUrl: "/my-photo.jpg",
   skills: [
     "React",
+    "React Native",
     "Next.js",
     "Javascript",
     "Typescript",
@@ -22,7 +23,12 @@ export const DATA = {
     "Express",
     "MongoDB",
     "Tailwindcss",
-    "C++",
+    "Git",
+    "HTML",
+    "CSS",
+    "Figma",
+    "Shadcn UI",
+    "Aceternity UI",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -164,6 +170,34 @@ export const DATA = {
   ],
   image: "/gcr.png",
   landingPage: "https://www.gcrcro.com/"
+},
+
+{
+  title: "GenAI-Powered RAG Assistant",
+  href: "https://rag-frontend-iota.vercel.app/",
+  active: true,
+  description:
+    "Built a full-stack Retrieval-Augmented Generation (RAG) AI Assistant that lets users upload PDFs or add website URLs, index them into a vector database, and chat with an AI that provides accurate, cited answers from their own documents.",
+  
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "TailwindCSS",
+    "Shadcn UI",
+    "LangChain.js",
+    "OpenAI",
+    "Qdrant Cloud",
+    "Express.js"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://rag-frontend-iota.vercel.app/",
+      icon: <Icons.globe className="size-3" />,
+    }
+  ],
+  image: "/rag.png", 
+  landingPage: "https://rag-frontend-iota.vercel.app/"
 },
 
 
