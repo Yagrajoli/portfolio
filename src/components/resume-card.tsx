@@ -33,8 +33,8 @@ export const ResumeCard = ({
   const [isExpanded, setIsExpanded] = React.useState(false);
   const ref = useRef(null);
   const isInView = useInView(ref, {
-    once: true, 
-    margin: "0px 0px -50px 0px", 
+    once: true,
+    margin: "0px 0px -50px 0px",
   });
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -57,7 +57,11 @@ export const ResumeCard = ({
   };
 
   return (
-    <Link href={href || "#"} onClick={handleClick} className="block cursor-pointer">
+    <Link
+      href={href || "#"}
+      onClick={handleClick}
+      className="block cursor-pointer"
+    >
       <motion.div
         ref={ref}
         initial="hidden"
@@ -68,7 +72,11 @@ export const ResumeCard = ({
         <Card className="flex">
           <div className="flex-none">
             <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
-              <AvatarImage src={logoUrl} alt={altText} className="object-contain" />
+              <AvatarImage
+                src={logoUrl}
+                alt={altText}
+                className="object-contain"
+              />
               <AvatarFallback>{altText[0]}</AvatarFallback>
             </Avatar>
           </div>

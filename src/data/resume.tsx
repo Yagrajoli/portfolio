@@ -59,7 +59,7 @@ export const DATA = {
 
         navbar: true,
       },
-      
+
       email: {
         name: "Send Email",
         url: "#",
@@ -71,248 +71,231 @@ export const DATA = {
   },
 
   work: [
-  {
-    company: "Hyberlab IT Solutions",
-    href: "https://hyberlab.com", // Use actual URL if available
-    badges: [],
-    location: "Kathmandu, Nepal",
-    title: "Frontend Web Developer",
-    logoUrl: "/hyberlabLogo.png", // Replace with your actual asset
-    start: "December 2023",
-    end: "Present",
-    description:
-      "Working on building scalable and user-friendly frontend applications using React.js and Next.js. Responsible for implementing responsive design systems, optimizing performance, and collaborating closely with UI/UX teams to ensure seamless user experiences.",
-  },
-  {
-    company: "Global Clinical Research Pvt. Ltd.",
-    href: "https://www.gcrcro.com", // Use actual URL if available
-    badges: [],
-    location: "Kathmandu, Nepal",
-    title: "Web Developer",
-    logoUrl: "/gcrLogo.jpg", // Replace with your actual asset
-    start: "March 2025",
-    end: "Present",
-    description:
-      "Developing and maintaining internal dashboards and data visualization tools. Collaborating with cross-functional teams to modernize the company’s web presence and enhance accessibility for medical professionals and researchers.",
-  },
-],
+    {
+      company: "Global Clinical Research Pvt. Ltd.",
+      href: "https://www.gcrcro.com", // Use actual URL if available
+      badges: [],
+      location: "Kathmandu, Nepal",
+      title: "Web Developer",
+      logoUrl: "/gcrLogo.jpg", // Replace with your actual asset
+      start: "March 2025",
+      end: "Present",
+      description:
+        "Developing and maintaining internal dashboards and data visualization tools. Collaborating with cross-functional teams to modernize the company’s web presence and enhance accessibility for medical professionals and researchers.",
+    },
+
+    {
+      company: "Saauzi Smart Solutions Pvt. Ltd.",
+      href: "https://saauzi.com",
+      badges: [],
+      location: "Kathmandu, Nepal",
+      title: "Frontend Developer",
+      logoUrl: "/saauzi-logo.png",
+      start: "December 2025",
+      end: "March 2026",
+      description:
+        "Guided and mentored a frontend intern — assigning tasks, reviewing code, and providing hands-on support to accelerate their onboarding and growth.\n Rapidly adapted Next.js architectural patterns (file-based routing, SSR/SSG, composables) to equivalent Nuxt.js conventions, ensuring consistent code quality across the project.",
+    },
+    {
+      company: "Hyberlab IT Solutions",
+      href: "https://hyberlab.com", // Use actual URL if available
+      badges: [],
+      location: "Kathmandu, Nepal",
+      title: "Frontend Developer",
+      logoUrl: "/hyberlabLogo.png", // Replace with your actual asset
+      start: "December 2023",
+      end: "February 2025",
+      description:
+        "Working on building scalable and user-friendly frontend applications using React.js and Next.js. Responsible for implementing responsive design systems, optimizing performance, and collaborating closely with UI/UX teams to ensure seamless user experiences.",
+    },
+  ],
 
   education: [
-  {
-    school: "Himalaya College of Engineering",
-    href: "https://hcoe.edu.np",
-    degree: "Bachelor of Computer Science",
-    logoUrl: "/hcoe-logo.png",
-    start: "2022",
-    end: "Present",
-    description:
-      "Currently pursuing a Bachelor's degree in Computer Science, focusing on advanced topics like algorithms, data structures, software engineering, and web development."
-  },
-  {
-    school: "Padmodaya Public Higher Secondary School",
-    href: "https://padmodaya.edu.np",
-    degree: "Higher Secondary (+2) Education",
-    logoUrl: "/padmodaya-logo.png",
-    start: "2018",
-    end: "2021",
-    description:
-      "Completed Higher Secondary Education with a focus on Science and Computer Science, where I developed a strong interest in programming and technology."
-  }
-],
+    {
+      school: "Himalaya College of Engineering",
+      href: "https://hcoe.edu.np",
+      degree: "Bsc Computer Science and Information Technology (Bsc CSIT) ",
+      logoUrl: "/hcoe-logo.png",
+      start: "2022",
+      end: "2026",
+      description:
+        "Currently pursuing a Bachelor's degree in Computer Science, focusing on advanced topics like algorithms, data structures, software engineering, and web development.",
+    },
+    {
+      school: "Padmodaya Public Higher Secondary School",
+      href: "https://padmodaya.edu.np",
+      degree: "Higher Secondary (+2) Education",
+      logoUrl: "/padmodaya-logo.png",
+      start: "2018",
+      end: "2021",
+      description:
+        "Completed Higher Secondary Education with a focus on Science and Computer Science, where I developed a strong interest in programming and technology.",
+    },
+  ],
 
   projects: [
     {
-  title: "Kinimini",
-  href: "https://kinimini.com.np/",
-  active: true,
-  description:
-    "Collaborated with teammates to build an online e-commerce store using Next.js, TailwindCSS, React Query, and Zustand for state management. Additionally developed the Super Admin Panel and Vendor Admin Panel for efficient management and operations.",
-  technologies: [
-    "Next.js",
-    "TypeScript",
-    "TailwindCSS",
-    "React Query",
-    "Zustand",
-    "Shadcn"
-  ],
-  links: [
-    {
-      type: "Website",
+      title: "Kinimini",
       href: "https://kinimini.com.np/",
-      icon: <Icons.globe className="size-3" />,
-    }
-  ],
-  image: "/kinimini.png",
-  landingPage: "https://kinimini.com.np/"
-},
+      active: true,
+      description:
+        "Collaborated with teammates to build an online e-commerce store using Next.js, TailwindCSS, React Query, and Zustand for state management. Additionally developed the Super Admin Panel and Vendor Admin Panel for efficient management and operations.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "React Query",
+        "Zustand",
+        "Shadcn",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://kinimini.com.np/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/kinimini.png",
+      landingPage: "https://kinimini.com.np/",
+    },
 
-
-
-{
-  title: "Global Clinical Research",
-  href: "https://www.gcrcro.com/",
-  active: true,
-  description:
-    "Developed and optimized the Global Clinical Research website using Next.js, TailwindCSS, and Shadcn UI. Focused on building clean, responsive UI components and enhancing overall user experience and performance.",
-  
-  technologies: [
-    "Next.js",
-    "TypeScript",
-    "TailwindCSS",
-    "Shadcn UI"
-  ],
-  links: [
     {
-      type: "Website",
+      title: "Global Clinical Research",
       href: "https://www.gcrcro.com/",
-      icon: <Icons.globe className="size-3" />,
-    }
-  ],
-  image: "/gcr.png",
-  landingPage: "https://www.gcrcro.com/"
-},
+      active: true,
+      description:
+        "Developed and optimized the Global Clinical Research website using Next.js, TailwindCSS, and Shadcn UI. Focused on building clean, responsive UI components and enhancing overall user experience and performance.",
 
-{
-  title: "GenAI-Powered RAG Assistant",
-  href: "https://rag-frontend-iota.vercel.app/",
-  active: true,
-  description:
-    "Built a full-stack Retrieval-Augmented Generation (RAG) AI Assistant that lets users upload PDFs or add website URLs, index them into a vector database, and chat with an AI that provides accurate, cited answers from their own documents.",
-  
-  technologies: [
-    "Next.js",
-    "TypeScript",
-    "TailwindCSS",
-    "Shadcn UI",
-    "LangChain.js",
-    "OpenAI",
-    "Qdrant Cloud",
-    "Express.js"
-  ],
-  links: [
+      technologies: ["Next.js", "TypeScript", "TailwindCSS", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.gcrcro.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/gcr.png",
+      landingPage: "https://www.gcrcro.com/",
+    },
+
     {
-      type: "Website",
+      title: "GenAI-Powered RAG Assistant",
       href: "https://rag-frontend-iota.vercel.app/",
-      icon: <Icons.globe className="size-3" />,
-    }
-  ],
-  image: "/rag.png", 
-  landingPage: "https://rag-frontend-iota.vercel.app/"
-},
+      active: true,
+      description:
+        "Built a full-stack Retrieval-Augmented Generation (RAG) AI Assistant that lets users upload PDFs or add website URLs, index them into a vector database, and chat with an AI that provides accurate, cited answers from their own documents.",
 
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "LangChain.js",
+        "OpenAI",
+        "Qdrant Cloud",
+        "Express.js",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://rag-frontend-iota.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/rag.png",
+      landingPage: "https://rag-frontend-iota.vercel.app/",
+    },
 
     {
-  title: "Kailash Cloud",
-  href: "https://kailashcloud.com/",
-  // dates: "June 2024 - August 2024",
-  active: true,
-  description:
-    "Solely developed an online presence for a hosting provider company in Nepal using Remix.js, TailwindCSS, and TypeScript. Built a responsive and modern website to showcase hosting services and streamline user interactions.",
-  technologies: [
-    "Remix.js",
-    "TailwindCSS",
-    "TypeScript",
-    "Shadcn"
-  ],
-  links: [
-    {
-      type: "Website",
+      title: "Kailash Cloud",
       href: "https://kailashcloud.com/",
-      icon: <Icons.globe className='size-3' />
-    }
-  ],
-  image: "/kailashcloud.png",
-  landingPage: "https://kailashcloud.com/"
-},
+      // dates: "June 2024 - August 2024",
+      active: true,
+      description:
+        "Solely developed an online presence for a hosting provider company in Nepal using Remix.js, TailwindCSS, and TypeScript. Built a responsive and modern website to showcase hosting services and streamline user interactions.",
+      technologies: ["Remix.js", "TailwindCSS", "TypeScript", "Shadcn"],
+      links: [
+        {
+          type: "Website",
+          href: "https://kailashcloud.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/kailashcloud.png",
+      landingPage: "https://kailashcloud.com/",
+    },
     {
-  title: "Siddhartha Hardwares",
-  href: "https://www.siddharthahardwares.com/",
-  // dates: "September 2024 - November 2024",
-  active: true,
-  description:
-    "Worked collaboratively with teammates to develop an e-commerce platform for a hardware store using Next.js, TailwindCSS, and Context API for state management. Designed a user-friendly interface to showcase products and streamline the shopping experience.",
-  technologies: [
-    "Next.js",
-    "TailwindCSS",
-    "Context API"
-  ],
-  links: [
-    {
-      type: "Website",
+      title: "Siddhartha Hardwares",
       href: "https://www.siddharthahardwares.com/",
-      icon: <Icons.globe className='size-3' />
-    }
-  ],
-  image: "/siddhartha-hardware.png",
-  landingPage: "https://www.siddharthahardwares.com/"
-},
+      // dates: "September 2024 - November 2024",
+      active: true,
+      description:
+        "Worked collaboratively with teammates to develop an e-commerce platform for a hardware store using Next.js, TailwindCSS, and Context API for state management. Designed a user-friendly interface to showcase products and streamline the shopping experience.",
+      technologies: ["Next.js", "TailwindCSS", "Context API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.siddharthahardwares.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/siddhartha-hardware.png",
+      landingPage: "https://www.siddharthahardwares.com/",
+    },
     {
-  title: "SND Cares",
-  href: "https://www.sndcares.com/",
-  dates: "December 2024 - February 2025",
-  active: true,
-  description:
-    "Collaborated with teammates to develop a website for SND Cares, offering top-notch ICT solutions for SMBs, using Next.js, TailwindCSS, and Context API for state management. Included the development of an admin panel for efficient management and operations.",
-  technologies: [
-    "Next.js",
-    "TailwindCSS",
-    "Context API"
-  ],
-  links: [
-    {
-      type: "Website",
+      title: "SND Cares",
       href: "https://www.sndcares.com/",
-      icon: <Icons.globe className='size-3' />
-    }
-  ],
-  image: "/sndcares.png",
-  landingPage: "https://www.sndcares.com/"
-},
-{
-  title: "Music School",
-  href: "https://music-school-nine-vert.vercel.app/",
-  // dates: "March 2025 - May 2025",
-  active: true,
-  description:
-    "Independently built a music school website using Next.js, Aceternity UI library, and TypeScript. Created a dynamic and engaging interface to showcase music courses and enhance user experience.",
-  technologies: [
-    "Next.js",
-    "Aceternity UI",
-    "TypeScript"
-  ],
-  links: [
+      dates: "December 2024 - February 2025",
+      active: true,
+      description:
+        "Collaborated with teammates to develop a website for SND Cares, offering top-notch ICT solutions for SMBs, using Next.js, TailwindCSS, and Context API for state management. Included the development of an admin panel for efficient management and operations.",
+      technologies: ["Next.js", "TailwindCSS", "Context API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.sndcares.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/sndcares.png",
+      landingPage: "https://www.sndcares.com/",
+    },
     {
-      type: "Website",
+      title: "Music School",
       href: "https://music-school-nine-vert.vercel.app/",
-      icon: <Icons.globe className='size-3' />
-    }
-  ],
-  image: "/music-school.png",
-  landingPage: "https://music-school-nine-vert.vercel.app/"
-},
-{
-  title: "Tech-News-App",
-  href: "https://tech-news-website-nu.vercel.app/",
-  // dates: "June 2025 - August 2025",
-  active: true,
-  description:
-    "Independently developed a news application using React.js, TailwindCSS, and the useReducer hook for pagination. Created a functional interface to display tech news with search and navigation features.",
-  technologies: [
-    "React.js",
-    "TailwindCSS",
-    "useReducer"
-  ],
-  links: [
+      // dates: "March 2025 - May 2025",
+      active: true,
+      description:
+        "Independently built a music school website using Next.js, Aceternity UI library, and TypeScript. Created a dynamic and engaging interface to showcase music courses and enhance user experience.",
+      technologies: ["Next.js", "Aceternity UI", "TypeScript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://music-school-nine-vert.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/music-school.png",
+      landingPage: "https://music-school-nine-vert.vercel.app/",
+    },
     {
-      type: "Website",
+      title: "Tech-News-App",
       href: "https://tech-news-website-nu.vercel.app/",
-      icon: <Icons.globe className='size-3' />
-    }
-  ],
-  image: "/tech-news.png",
-  landingPage: "https://tech-news-website-nu.vercel.app/"
-},
-
+      // dates: "June 2025 - August 2025",
+      active: true,
+      description:
+        "Independently developed a news application using React.js, TailwindCSS, and the useReducer hook for pagination. Created a functional interface to display tech news with search and navigation features.",
+      technologies: ["React.js", "TailwindCSS", "useReducer"],
+      links: [
+        {
+          type: "Website",
+          href: "https://tech-news-website-nu.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/tech-news.png",
+      landingPage: "https://tech-news-website-nu.vercel.app/",
+    },
   ],
   // hackathons: [
   //   {
